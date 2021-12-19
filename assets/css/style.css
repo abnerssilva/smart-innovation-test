@@ -1,0 +1,238 @@
+@import "_fonts.css";
+
+:root {
+	/* Font/text values */
+	--raleway-extrabold: 'Raleway Extra-Bold';
+	--raleway-bold: 'Raleway Bold';
+	--raleway-semibold: 'Raleway Semi-Bold';
+	--raleway-regular: 'Raleway Regular';
+	--raleway-extralight: 'Raleway Extra-Light';
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	opacity: 0.9;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background: url(../media/images/banner.jpg) center no-repeat;
+	background-size: 100%;
+	width: 100vw;
+	height: 110vh;
+	font-family: var(--raleway-extralight);
+}
+
+h1 {
+	font-size: 3em;
+	font-family: var(--raleway-extrabold);
+}
+
+h2, h3, h5 {
+	font-family: var(--raleway-bold);
+}
+
+button {
+	font-family: var(--raleway-regular);
+}
+
+a {
+	text-decoration: none !important;
+	text-transform: none;
+}
+
+#navbarSupportedContent {
+	font-size: 1.3em;
+	font-family: var(--raleway-bold);
+}
+
+.navbar-brand {
+	width: 25%;
+}
+
+.master {
+	width: 75%;
+	height: 169px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-img {
+	width: 97%;
+	
+}
+
+#first-page {
+	background-color: rgb(0, 0, 0, 0.5);
+	backdrop-filter: blur(10px);
+	color: white;
+	margin-top: 15%;
+	width: 64%;
+	height: 350px;
+}
+
+.pl-11 {
+	padding-left: 110px;
+}
+
+.red {
+	width: 100%;
+	height: 26%;
+	background-image: linear-gradient(to top left, #820e1c, #b90a24, #910d1e);
+	position: absolute;
+	display: block;
+	clip-path: polygon(0% 0%, 100% 65%, 100% 100%, 0% 15%, 0% 0%);
+}
+
+.div-2 {
+	background-image: linear-gradient(to right, #e4e4e4 1%, white 99%);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	margin-top: 213px;
+	clip-path: polygon(0% 0%, 100% 21%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.flex-conteiner {
+	margin-top: 18%;
+	margin-left: 10%;
+}
+
+.image-worker {
+	width: 827px;
+	height: 512px;
+}
+
+#second-page {
+	width: 520px;
+	height: 520px;
+	margin-left: 130px;
+}
+
+.vertical-button {
+	font-size: 1.3em; 
+	position: absolute; 
+	transform: rotate(-90deg); 
+	right: -80px; 
+	top: 540px;
+}
+
+.div-3 {
+	background-image: linear-gradient(to right, #e4e4e4 1%, white 99%);
+	width: 100%;
+	height: 80vh;
+}
+
+.links-div-3-active {
+	padding: 10px 80px; 
+	border: 5px solid red; 
+	color: red;
+	width: 110%; 
+	height: 80px; 
+	border-top-color: transparent; 
+	border-right-color: transparent; 
+	border-left-color: transparent;
+}
+
+.links-div-3 {
+	padding: 10px 80px; 
+	border: 5px solid black; 
+	width: 110%; 
+	height: 80px; 
+	border-top-color: transparent; 
+	border-right-color: transparent; 
+	border-left-color: transparent;
+}
+
+.div-4 {
+	background-image: linear-gradient(to right, #e4e4e4 1%, white 99%);
+	width: 100%;
+	height: 126vh;
+	position: relative;
+}
+
+.div-5 {
+	background: url(../media/images/featured-projects-banner.jpg) center no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 1);
+	background-blend-mode: luminosity;
+	width: 100%;
+	height: 180vh;
+	position: absolute;
+	clip-path: polygon(0% 18%, 100% 2%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.div-6 {
+	background-image: linear-gradient(to left, #e4e4e4 1%, white 99%);
+	width: 100%;
+	height: 130vh;
+	position: relative;
+	margin-top: 1150px;
+	clip-path: polygon(0% 0%, 100% 21%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.div-7 {
+	background: url(../media/images/aaa-advantage.jpg) center no-repeat;
+	background-size: cover;
+	background-color: rgba(255, 255, 255, 1);
+	background-blend-mode: luminosity;
+	width: 100%;
+	height: 120vh;
+	margin-top: -11.5%;
+	position: absolute;
+	clip-path: polygon(0% 18%, 100% 0%, 100% 84%, 0% 70%, 0% 0%);
+}
+
+.article-review {
+	width: 30%; 
+	height: 30%; 
+	background-color: rgb(0, 0, 0, 0.5); 
+	backdrop-filter: blur(10px); 
+	margin-top: -250px; 
+	color: WHITE;
+}
+
+.p-review {
+	width: 75%; 
+	font-size: 1.3em; 
+	margin-left: 16%;
+}
+
+.div-8 {
+	background-color: white;
+	width: 100%;
+	height: 150vh;
+	position: relative;
+	margin-top: 622px;
+	clip-path: polygon(0% 0%, 100% 14%, 100% 78%, 0% 91%, 0% 0%);
+}
+
+.div-9 {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 70vh;
+	position: absolute;
+	margin-top: -305px;
+	clip-path: polygon(0% 30%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.links-div-9 {
+	border: 1px solid gray; 
+	width: 27%; 
+	height: 100%;
+	border-bottom-color: transparent; 
+	border-right-color: transparent; 
+	border-left-color: transparent;
+}
+
+.link {
+	cursor: pointer;
+}
